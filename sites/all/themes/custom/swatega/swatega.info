@@ -8,10 +8,7 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/swatega.normalize.css
-stylesheets[all][] = css/swatega.hacks.css
-stylesheets[all][] = css/swatega.styles.css
-stylesheets[all][] = css/swatega.no-query.css
+stylesheets[all][] = stylesheets/swatega.styles.css
 
 ; ========================================
 ; Scripts
