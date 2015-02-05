@@ -4,7 +4,6 @@ core = 7.x
 base theme = andromeda
 
 ; CSS
-stylesheets[all][] = css/custom.css
 stylesheets[all][] = css/navigation.css
 stylesheets[all][] = css/reset.css
 stylesheets[all][] = css/layout.css
@@ -16,6 +15,7 @@ stylesheets[all][] = css/form.css
 stylesheets[all][] = css/font.css
 stylesheets[all][] = css/panel.css
 stylesheets[all][] = css/view.css
+stylesheets[all][] = css/custom.css
 
 regions[header] = Header
 regions[navigation] = Navigation

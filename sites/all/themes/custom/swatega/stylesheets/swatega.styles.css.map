@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;;;;;;;;AAYA,IAAK;EACH,gBAAgB,ECTX,qBAAkB",
-"sources": ["../sass/swatega.styles.scss","../sass/variables/_colors.scss"],
-"names": [],
-"file": "swatega.styles.css"
-}

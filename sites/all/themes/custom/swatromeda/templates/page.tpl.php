@@ -63,9 +63,9 @@
     <?php endif; ?>
       
   <?php if($page['navigation']) : ?>
-    <div id="navigation">
+    <nav class="clearfix">
       <?php print drupal_render($page['navigation']); ?>
-    </div>
+    </nav>
   <?php endif; ?>
     
   </div> <!-- /.section -->
@@ -134,5 +134,8 @@
 	<?php print drupal_render($page['footer-right']); ?>
     </div>
   <?php endif; ?> <!-- /#footer-right -->
+  
+  <div class="rtecenter" style="clear:both;"><?php print(date("Y") . ' &#169; CSPD Tactical Enforcement Unit (TEU)') ?></div>
+  
   </div>
 </div>

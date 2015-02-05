@@ -8,11 +8,11 @@ body{
   color: #363636;
   font-family: Arial,Tahoma,Verdana;
   font-size: 12px;
-  background:url('../images/bg-not-front.gif') repeat-x center top #F5F5F5;
+  background:url('../images/bg-not-front.gif') repeat-x center top rgba(207,207,207, 0.5);
 }
 
 body.with-slideshow {
-  background:url('../images/bg-pattern-t.gif') repeat-x center top #F5F5F5;
+  background:url('../images/bg-pattern-t.gif') repeat-x center top rgba(207,207,207, 0.5);
 }
 
 body.toolbar-drawer {
@@ -75,6 +75,7 @@ body.with-slideshow #header{
   font-size:40px;
   font-weight:lighter;
   line-height:normal;
+  width: 940px;
   float:left;
 }
 
@@ -109,10 +110,17 @@ body.with-slideshow #header{
   z-index:1000;
 }
 
-
 .logo-on-right .region-header {
   float:left;
   margin:0;
+}
+
+.front with-slideshow admin-menu {
+  width: 100%;
+}
+
+.field-content img {
+  margin-top: 12px;
 }
 
 /**
@@ -139,6 +147,20 @@ body.with-slideshow #header{
 #slider {
   height:400px;
   width:940px;
+}
+
+.views-field-field-slideshow-image {
+  margin-top: 12px;
+  height: 400px;
+  width: 940px;
+  overflow: hidden;
+}
+
+.views-field-field-slideshow-image img {
+  display: block;
+  margin: -50px 0px 0px -50px;
+  height: 500px;
+  width: 1040px;  
 }
 
 /**
@@ -183,6 +205,11 @@ body.with-slideshow #main{
  * Sidebar
  */
 .with-sidebar #main {
+}
+
+.no-sidebar #content {
+  float: none;
+  width: 940px;
 }
 
 .with-sidebar #content {

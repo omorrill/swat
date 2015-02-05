@@ -7,14 +7,7 @@ and open the template in the editor.
     Created on : Jan 12, 2015, 1:56:18 PM
     Author     : omorrill
 */
-.front with-slideshow admin-menu {
-  width: 100%;
-}
 
-#site-name {
-  width: 940px !important;
-}
-
-.field-content img {
-  margin-top: 12px;
+.region-header img {
+  padding: 12px;
 }

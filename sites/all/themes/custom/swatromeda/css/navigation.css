@@ -8,21 +8,21 @@ and open the template in the editor.
     Author     : omorrill
 */
 
-#navigation {
+nav {
   height: 26px;
   margin-top: -3px;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
 }
 
-#navigation ul.menu {
+nav ul.menu {
   display: block;
   margin: 3px auto;
   padding-top: 3px;
   list-style-type: none;
 }
 
-#navigation ul.menu li {
+nav ul.menu li {
   display: block;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -31,26 +31,50 @@ and open the template in the editor.
   float: left;
 }
 
-#navigation ul.menu li a:visited {
+nav ul.menu li a:visited {
   color: #ffffff;
   text-decoration: none;
   text-shadow: 1px 1px 1px #000000;
 }
 
-#navigation ul.menu li a:link {
+nav ul.menu li a:link {
   color: #ffffff;
   text-decoration: none;
   text-shadow: 1px 1px 1px #000000;
 }
 
-#navigation ul.menu li a:hover {
+nav ul.menu li a:hover {
   color: #808080;
   text-decoration: none;
   text-shadow: 1px 1px 1px rgba(0, 0, 255, 0.5);
 }
 
-#navigation a.active {
+nav a.active {
   color: #ffffff;
   text-decoration: none;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
 }
+
+/*
+nav {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+ 
+nav ul {
+  display: table-row;
+  margin: 0;
+  padding: 0;
+}
+ 
+nav ul li {
+  list-style: none;
+  display: table-cell;
+  text-align: center;
+}
+ 
+nav ul li a {
+  display: block;
+}
+*/
